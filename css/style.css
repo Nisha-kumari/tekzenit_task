@@ -1,0 +1,141 @@
+
+  #tr-navbar {
+    top: 10px;
+    z-index: 2;
+    background-color: transparent;
+    border: 0;
+  }
+  header {
+    background-image: url(../images/laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+  #img-header {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+
+  }
+#nav-right {
+
+    float: right;
+    margin-right: 20px;
+  }
+  #nav-right li{
+ display:inline;
+ padding: 10px;
+}
+  .btn-round-md {
+  border-radius: 20px;
+    background-color: #fff;
+  }
+  .btn-round-lg {
+  border-radius: 25px;
+  background-color: #102BB2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 15px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.fa .fa-bars {
+    float: left;
+
+  }
+  .join{
+    position: absolute;
+    right: 110px;
+  }
+  .login{
+    float: right;
+
+  }
+
+   #nav {
+    text-align: center;
+    margin-top: 20px;
+  }
+     #nav li{
+    display:inline;
+  }
+     #nav a {
+text-decoration:none;
+padding: 30px;
+}
+
+  #nav li a {
+   color: #fff;
+   font-size: 16px;
+ }
+
+#login {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 16px;
+  }
+.text-center {
+  position: relative;
+  background-color: transparent;
+  margin-top: 50px;
+  padding-top: 100px;
+  color: #FFF;
+  font-family: Arial;
+}
+.text-center h6{
+  font-size: 15px;
+}
+.text-center h1{
+  font-weight: bolder;
+}
+
+.input-first
+{
+  background-color: rgba(0,0,0,0.2);
+  width: 500px;
+  height: 40px;
+  margin-bottom: 10px;
+   padding-left: 15px;
+   border: none;
+}
+
+.input-text
+{
+  background-color: rgba(0,0,0,0.2);
+  width: 248px;
+  height: 40px;
+  border-radius: 3px;
+   padding-left: 15px;
+   border: none;
+}
+input::placeholder {
+  color: white;
+  z-index: -1;
+}
+section{
+  margin-top: 60px;
+}
+.container {
+  height: 100%;
+}
+p {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 40px;
+}
+#portfolio{
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 15px;
+}
+.video{
+  height: 400px;
+  width: 500px;
+}
